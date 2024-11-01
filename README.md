@@ -10,11 +10,13 @@ Features
    
    Randomly Generated Cave: Each cell's depth is randomly assigned and displayed as a blue rectangle, with shades indicating depth (lighter for shallow, darker for deeper).
     Escape Route: The diver starts with 20 units of air, losing 1 unit per move. The goal is to find a safe path to the exit without exceeding the depth rating or running out of air.
-    User Interaction:
+    
+   User Interaction:
         Enter a depth rating for the diver.
         Click "Escape" to find a route.
         "New Cave" generates a new random cave layout.
-    Recursive Pathfinding: The application uses a recursive algorithm to determine if an escape route exists.
+   
+   Recursive Pathfinding: The application uses a recursive algorithm to determine if an escape route exists.
         If successful, the escape route is marked in red.
         If no route is possible, a message is displayed.
 
