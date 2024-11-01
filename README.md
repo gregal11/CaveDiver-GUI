@@ -28,9 +28,11 @@ Instructions
 
 Technical Details
    
-   Grid Layout: The main cave area is a 10x10 grid, with each cell represented by a CaveCell object.
-    Depth and Color: Cells are colored based on depth using java.awt.Graphics. Shallow cells appear lighter, while deeper cells are darker.
-    Recursive Escape Algorithm: A recursive method attempts to find a path by moving only downward or to the right. If a solution is found, the path is marked in red as the recursion unwinds.
+Grid Layout: The main cave area is a 10x10 grid, with each cell represented by a CaveCell object.
+   
+ Depth and Color: Cells are colored based on depth using java.awt.Graphics. Shallow cells appear lighter, while deeper cells are darker.
+   
+ Recursive Escape Algorithm: A recursive method attempts to find a path by moving only downward or to the right. If a solution is found, the path is marked in red as the recursion unwinds.
 
 GUI Design
    
